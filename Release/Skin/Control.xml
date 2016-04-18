@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Window size="600,37" >
+  <HorizontalLayout name="Control" height="37" >
+    <VerticalLayout width="110">
+      <Button name="history_btn"   float="true" pos="20,7,0,0"   width="24" height="24"  bkimage=" file=&apos;history_btn.bmp&apos; source=&apos;0,0,24,24&apos; " hotimage="file=&apos;history_btn.bmp&apos; source=&apos;24,0,48,24&apos;" pushedimage="file=&apos;history_btn.bmp&apos; source=&apos;48,0,72,24&apos;" />
+    </VerticalLayout >
+    <VerticalLayout />
+    <VerticalLayout width="197">
+      <Button name="stop_btn"   float="true" pos="0,4,0,0"   width="32" height="30"  bkimage=" file=&apos;stop_btn.bmp&apos; source=&apos;0,0,32,30&apos; " hotimage="file=&apos;stop_btn.bmp&apos; source=&apos;32,0,64,30&apos;" pushedimage="file=&apos;stop_btn.bmp&apos; source=&apos;64,0,96,30&apos;" />
+      <Button name="pre_btn"   float="true" pos="33,4,0,0"   width="32" height="30"  bkimage=" file=&apos;pre_btn.bmp&apos; source=&apos;0,0,32,30&apos; " hotimage="file=&apos;pre_btn.bmp&apos; source=&apos;32,0,64,30&apos;" pushedimage="file=&apos;pre_btn.bmp&apos; source=&apos;64,0,96,30&apos;" />
+      <Button name="play_btn"   float="true" pos="66,0,0,0"   width="65" height="37"  bkimage=" file=&apos;play_btn.bmp&apos; source=&apos;0,0,65,37&apos; " hotimage="file=&apos;play_btn.bmp&apos; source=&apos;65,0,130,37&apos;" pushedimage="file=&apos;play_btn.bmp&apos; source=&apos;130,0,195,37&apos;" />
+      <Button name="pause_btn"   float="true" pos="66,0,0,0"   width="65" height="37"  bkimage=" file=&apos;pause_btn.bmp&apos; source=&apos;0,0,65,37&apos; " hotimage="file=&apos;pause_btn.bmp&apos; source=&apos;65,0,130,37&apos;" pushedimage="file=&apos;pause_btn.bmp&apos; source=&apos;130,0,195,37&apos;" visible="false"/>
+      <Button name="next_btn"   float="true" pos="132,4,0,0"   width="32" height="30"  bkimage=" file=&apos;next_btn.bmp&apos; source=&apos;0,0,32,30&apos; " hotimage="file=&apos;next_btn.bmp&apos; source=&apos;32,0,64,30&apos;" pushedimage="file=&apos;next_btn.bmp&apos; source=&apos;64,0,96,30&apos;" />
+      <Button name="volume_btn3"   float="true" pos="165,4,0,0"   width="32" height="30"  bkimage=" file=&apos;volume_btn3.bmp&apos; source=&apos;0,0,32,30&apos; " hotimage="file=&apos;volume_btn3.bmp&apos; source=&apos;32,0,64,30&apos;" pushedimage="file=&apos;volume_btn3.bmp&apos; source=&apos;64,0,96,30&apos;" />
+      <Button name="silence_btn"   float="true" pos="165,4,0,0"   width="32" height="30"  visible="false" bkimage=" file=&apos;silence_btn.bmp&apos; source=&apos;0,0,32,30&apos; " hotimage="file=&apos;silence_btn.bmp&apos; source=&apos;32,0,64,30&apos;" pushedimage="file=&apos;silence_btn.bmp&apos; source=&apos;64,0,96,30&apos;" />
+    </VerticalLayout >
+    <VerticalLayout>
+      <Slider name="volume_sld"   float="true" pos="0,11,0,0"   width="67" height="17"  value="50" bkimage=" file=&apos;volume_back.png&apos;corner=&apos;3,0,3,0&apos; " foreimage=" file=&apos;volume_front.png&apos; corner=&apos;2,0,0,10&apos; mask=&apos;#FFFF00FF&apos; " thumbsize="17,17" thumbimage="file=&apos;volume_thumb_normal.png&apos; mask=&apos;#FFFF00FF&apos; " thumbhotimage="file=&apos;volume_thumb_hot.png&apos; mask=&apos;#FFFF00FF&apos; " thumbpushedimage="file=&apos;volume_thumb_hot.png&apos; mask=&apos;#FFFF00FF&apos; " />
+      </VerticalLayout >
+    <VerticalLayout width="110">
+      <Button name="setting_btn"    float="true" pos="0,7,0,0"   width="24" height="24"  bkimage=" file=&apos;setting_btn.bmp&apos; source=&apos;0,0,24,24&apos; " hotimage="file=&apos;setting_btn.bmp&apos; source=&apos;24,0,48,24&apos;" pushedimage="file=&apos;setting_btn.bmp&apos; source=&apos;48,0,72,24&apos;" />
+      <Button name="open_file_btn"  float="true" pos="25,7,0,0"   width="24" height="24"  bkimage=" file=&apos;open_file_btn.bmp&apos; source=&apos;0,0,24,24&apos; " hotimage="file=&apos;open_file_btn.bmp&apos; source=&apos;24,0,48,24&apos;" pushedimage="file=&apos;open_file_btn.bmp&apos; source=&apos;48,0,72,24&apos;" />
+      <Button name="skin_btn"       float="true" pos="50,7,0,0"   width="24" height="24"  bkimage=" file=&apos;skin_btn.bmp&apos; source=&apos;0,0,24,24&apos; " hotimage="file=&apos;skin_btn.bmp&apos; source=&apos;24,0,48,24&apos;" pushedimage="file=&apos;skin_btn.bmp&apos; source=&apos;48,0,72,24&apos;" />
+      <Button name="list_show"      float="true" pos="75,7,0,0"   width="24" height="24"  bkimage=" file=&apos;list_show.bmp&apos; source=&apos;0,0,24,24&apos; " hotimage="file=&apos;list_show.bmp&apos; source=&apos;24,0,48,24&apos;" pushedimage="file=&apos;list_show.bmp&apos; source=&apos;48,0,72,24&apos;" />
+      <Button name="list_hide"      float="true" pos="75,7,0,0"   width="26" height="25" visible="false" bkimage=" file=&apos;list_hide.png&apos; source=&apos;0,0,26,25&apos; mask=&apos;#FFFF00FF&apos;" hotimage="file=&apos;list_hide.png&apos; source=&apos;26,0,52,25&apos;" pushedimage="file=&apos;list_hide.png&apos; source=&apos;52,0,78,25&apos;" />
+    </VerticalLayout >
+  </HorizontalLayout >
+</Window>

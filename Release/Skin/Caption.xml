@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Window size="600,30" >
+  <HorizontalLayout name="Caption" height="30" >
+    <VerticalLayout>
+      <Control float="true" pos="2,6,0,0"  width="20" height="20" bkimage="icon_qq_player.png" />
+      <Control float="true" pos="25,6,0,0" width="48" height="20" bkimage="text_qq_player.png" />
+    </VerticalLayout>
+    <VerticalLayout />
+    <VerticalLayout width="51">
+      <Button name="feed_back_btn"   tooltip="反馈建议" float="true" pos="1,3,0,0"   width="25" height="25" bkimage="file=&apos;feed_back.bmp&apos; source=&apos;0,0,25,25&apos; " textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" hotimage="file=&apos;feed_back.bmp&apos; source=&apos;25,0,50,25&apos;" pushedimage="file=&apos;feed_back.bmp&apos; source=&apos;50,0,75,25&apos;" />
+      <Button name="main_manue_btn"  tooltip="主菜单"   float="true" pos="26,3,0,0"  width="25" height="25" bkimage="file=&apos;main_manue.bmp&apos; source=&apos;0,0,25,25&apos; " textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" hotimage="file=&apos;main_manue.bmp&apos; source=&apos;25,0,50,25&apos;" pushedimage="file=&apos;main_manue.bmp&apos; source=&apos;50,0,75,25&apos;" />
+    </VerticalLayout>
+    <VerticalLayout width="80">
+      <Button name="minbtn"      tooltip="最小化"  float="true" pos="0,3,0,0"   width="25" height="25" bkimage="file=&apos;min_btn.bmp&apos; source=&apos;0,0,25,25&apos; " textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" hotimage="file=&apos;min_btn.bmp&apos; source=&apos;25,0,50,25&apos;" pushedimage="file=&apos;min_btn.bmp&apos; source=&apos;50,0,75,25&apos;" />
+      <Button name="maxbtn"      tooltip="最大化"  float="true" pos="25,3,0,0"  width="25" height="25" bkimage="file=&apos;max_btn.bmp&apos; source=&apos;0,0,25,25&apos; " textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" hotimage="file=&apos;max_btn.bmp&apos; source=&apos;25,0,50,25&apos;" pushedimage="file=&apos;max_btn.bmp&apos; source=&apos;50,0,75,25&apos;" />
+      <Button name="restorebtn"  tooltip="还原"    float="true" pos="25,3,0,0"  width="25" height="25" bkimage="file=&apos;restore_btn.bmp&apos; source=&apos;0,0,25,25&apos; " textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" hotimage="file=&apos;restore_btn.bmp&apos; source=&apos;25,0,50,25&apos;" pushedimage="file=&apos;restore_btn.bmp&apos; source=&apos;50,0,75,25&apos;" visible="false" />
+      <Button name="closebtn"    tooltip="关闭"    float="true" pos="50,3,0,0"  width="25" height="25" bkimage="file=&apos;close_btn.bmp&apos; source=&apos;0,0,25,25&apos; " textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" hotimage="file=&apos;close_btn.bmp&apos; source=&apos;25,0,50,25&apos;" pushedimage="file=&apos;close_btn.bmpg&apos; source=&apos;50,0,75,25&apos;" />
+    </VerticalLayout>
+  </HorizontalLayout>
+</Window>

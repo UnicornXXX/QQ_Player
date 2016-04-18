@@ -1,0 +1,42 @@
+
+
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<Window size="400,400" >
+  <HorizontalLayout name="PlayList" bkimage="file='list_back.bmp' corner='1,1,5,5'" >
+    <VerticalLayout width="6">
+      <HorizontalLayout />
+      <HorizontalLayout height="48" >        
+        <Button name="min_list" float="true" pos="0,0,0,0" width="6" height="48" bkimage=" file='min_list.bmp' source='1,0,7,48' " hotimage="file='min_list.bmp' source='8,0,14,48'" pushedimage="file='min_list.bmp' source='15,0,21,48'" />
+       </HorizontalLayout>
+      <HorizontalLayout />
+    </VerticalLayout>
+    
+    <VerticalLayout >
+      <HorizontalLayout height="22"  >
+        <VerticalLayout />
+        <VerticalLayout width="96">
+          <Button name="text_list"    float="true" pos="0,2,0,0"  width="24" height="18" visible="false" bkimage="file='text_list.bmp' source='0,0,24,18'" hotimage="file='text_list.bmp' source='24,0,48,18'" pushedimage="file='text_list.bmp' source='48,0,72,18'" />
+          <Button name="picture_list" float="true" pos="0,2,0,0"  width="24" height="18" bkimage="file='picture_list.bmp' source='0,0,24,18'" hotimage="file='picture_list.bmp' source='24,0,48,18'" pushedimage="file='picture_list.bmp' source='48,0,72,18'" />
+          <Button name="add_file"     float="true" pos="24,2,0,0" width="24" height="18" bkimage="file='add_file.bmp' source='0,0,24,18'" hotimage="file='add_file.bmp' source='24,0,48,18'" pushedimage="file='add_file.bmp' source='48,0,72,18'" />
+          <Button name="delete_file"  float="true" pos="48,2,0,0" width="24" height="18" bkimage="file='delete_file.bmp' source='0,0,24,18'" hotimage="file='delete_file.bmp' source='24,0,48,18'" pushedimage="file='delete_file.bmp' source='48,0,72,18'" />
+          <Button name="more_setting" float="true" pos="72,2,0,0" width="24" height="18" bkimage="file='more_setting.bmp' source='0,0,24,18'" hotimage="file='more_setting.bmp' source='24,0,48,18'" pushedimage="file='more_setting.bmp' source='48,0,72,18'" />
+        </VerticalLayout>
+      </HorizontalLayout>
+      <HorizontalLayout height="1" bkcolor="#FF303030" />
+      <HorizontalLayout height="1" bkcolor="#FF000000" /> <!--bkcolor="#FF404040"用一条线两种颜色过渡不好看，直接分成两条算了-->
+      <List name="FileList"  vscrollbar="true" hscrollbar="false" itemtextcolor="#FFA0A0A0" itemhottextcolor="#FFB0B0B0" itemselectedtextcolor="#FFC0C0C0"  itembkimage="file='list_item.bmp' source='0,0,188,27'" itemhotimage="file='list_item.bmp' source='188,0,376,27'" itemselectedimage="file='list_item.bmp' source='376,0,564,27'">
+        <ListHeader name="ListHeader" visible="false">
+          <ListHeaderItem text="图标"   width="10"  height="23" minwidth="10"  sepwidth="1" align="center" textcolor="#FFA0A0A0" sepimage="list_header_sep.png" />
+          <ListHeaderItem text="文件名" width="150" height="23" minwidth="10"  sepwidth="1" align="center" textcolor="#FFA0A0A0" sepimage="list_header_sep.png" />
+          <ListHeaderItem text="时长"   width="33"  height="23" minwidth="10"  sepwidth="1" align="center" textcolor="#FFA0A0A0" sepimage="list_header_sep.png" />
+        </ListHeader>
+      </List>
+    </VerticalLayout> 
+    
+  </HorizontalLayout>
+</Window>

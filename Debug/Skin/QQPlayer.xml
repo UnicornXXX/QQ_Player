@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="600,400" sizebox="4,4,8,8" caption="0,0,0,30" mininfo="600,400">
+    <VerticalLayout bkimage=" file=&apos;back_ground.bmp&apos; source=&apos;0,0,192,127&apos; corner=&apos;15,32,15,80&apos; mask=&apos;#FFFF00FF&apos; " >
+
+      <WndCaption height="30" />
+      <HorizontalLayout >          
+        <VerticalLayout />
+        <VerticalLayout width="161">
+          <HorizontalLayout />
+          <HorizontalLayout height="53" >
+            <Button name="open_file"   float="true" pos="0,0,0,0"   width="137" height="53"  bkimage=" file=&apos;open_file.png&apos; source=&apos;0,0,137,53&apos; " hotimage="file=&apos;open_file.png&apos; source=&apos;137,0,274,53&apos;" pushedimage="file=&apos;open_file.png&apos; source=&apos;274,0,411,53&apos;" />
+            <Button name="open_option" float="true" pos="137,0,0,0"   width="23" height="53"  bkimage=" file=&apos;open_option.png&apos; source=&apos;0,0,23,53&apos; " hotimage="file=&apos;open_option.png&apos; source=&apos;23,0,46,53&apos;" pushedimage="file=&apos;open_option.png&apos; source=&apos;46,0,69,53&apos;" />
+          </HorizontalLayout>
+          <HorizontalLayout />
+        </VerticalLayout>
+        <VerticalLayout />
+        <WndPlayList width="200"/>
+        <VerticalLayout name="FileListMin" width="7" visible="false"  bkimage="file='list_back.bmp' corner='1,1,5,5'" >
+          <HorizontalLayout />
+          <Button name="max_list" width="6" height="48" bkimage=" file='max_list.bmp' source='1,0,7,48' " hotimage="file='max_list.bmp' source='8,0,14,48'" pushedimage="file='max_list.bmp' source='15,0,21,48'" />
+          <HorizontalLayout />
+        </VerticalLayout>
+        <VerticalLayout width="7"/>
+      </HorizontalLayout>
+      <HorizontalLayout height="1" /><!--占一行， float="true" pos="0,0,0,0"让列表显示不会遮住底部的框框-->
+      <WndProgress height="15" />
+      <WndControl height="37" />
+    </VerticalLayout>
+</Window>

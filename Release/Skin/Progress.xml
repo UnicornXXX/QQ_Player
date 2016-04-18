@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Window size="600,15" >
+  <HorizontalLayout name="Progress" height="15" >
+    <VerticalLayout width="42">
+      <Button name="fast_backword" float="true" pos="10,0,0,0"   width="32" height="15"  bkimage=" file=&apos;fast_backword.bmp&apos; source=&apos;0,0,32,15&apos; " hotimage="file=&apos;fast_backword.bmp&apos; source=&apos;32,0,64,15&apos;" pushedimage="file=&apos;fast_backword.bmp&apos; source=&apos;64,0,96,15&apos;" />
+    </VerticalLayout>
+    <VerticalLayout >
+      <Slider name="progress_slider" float="false" value="50" bkimage=" file=&apos;slider_back.bmp&apos; corner=&apos;20,0,20,0&apos; " foreimage=" file=&apos;slider_front.bmp&apos; corner=&apos;20,0,20,0&apos; " thumbsize="18,15" thumbhotimage="thumb_hot.bmp" thumbpushedimage="thumb_pushed.bmp" />
+    </VerticalLayout>
+    <VerticalLayout width="42">
+      <Button name="fast_frontword" float="true" pos="0,0,0,0"   width="32" height="15"  bkimage=" file=&apos;fast_frontword.bmp&apos; source=&apos;0,0,32,15&apos; " hotimage="file=&apos;fast_frontword.bmp&apos; source=&apos;32,0,64,15&apos;" pushedimage="file=&apos;fast_frontword.bmp&apos; source=&apos;64,0,96,15&apos;" />
+    </VerticalLayout>
+  </HorizontalLayout >
+</Window>

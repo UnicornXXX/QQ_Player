@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Window size="120,80" >
+  <VerticalLayout bkimage=" file='manue_back.bmp' corner='10,10,10,10' mask='#FFFF00FF' ">
+    <HorizontalLayout />
+    <HorizontalLayout height="69" >
+      <VerticalLayout />
+      <VerticalLayout width="114" >
+          <Button name="play_setting" float="true" pos="0,0,0,0"  width="114" height="23" text="播放设置" hotimage="manue_hot.bmp" align="center" />
+          <Button name="list_setting" float="true" pos="0,23,0,0" width="114" height="23" text="列表设置" hotimage="manue_hot.bmp" align="center" />
+          <Button name="skin_setting" float="true" pos="0,46,0,0" width="114" height="23" text="皮肤设置" hotimage="manue_hot.bmp" align="center" />
+      </VerticalLayout>
+      <VerticalLayout />
+    </HorizontalLayout>
+    <HorizontalLayout />
+  </VerticalLayout >
+</Window>
